@@ -3,6 +3,10 @@
 ### Repository Contents
 This repository contains files for:
   - `/Commands`
+    - `/week-05-stataExample`
+      - `/CodeArchive`
+        - `master.do`
+      - `week-05-stataExample.txt`
     - `week-05-stataQuickRef.pdf`
   - `/ProblemSet-03`
     - `ps-03.pdf`

@@ -1,0 +1,121 @@
+--------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/herb/Documents/Working/week-05-stataExample/week-05-stataExa
+> mple.txt
+  log type:  text
+ opened on:  18 Sep 2016, 21:04:17
+
+. 
+. // ==========================================================================
+. 
+. /*
+> file name - week-05-stataExample.do
+> 
+> project name - SOC5050: Quantitative Analysis, Fall 2016
+> 
+> purpose - Illustrates the display command from Week 05
+> 
+> created - 18 Sep 2016
+> 
+> updated - 18 Sep 2016
+> 
+> author - CHRIS
+> */
+. 
+. // ==========================================================================
+. 
+. /*
+> full description -
+> This do-file illustrates different ways to implement the display command
+> along with associated mathematical functions and operations.
+> */
+. 
+. /*
+> updates -
+> none
+> */
+. 
+. // ==========================================================================
+. 
+. /*
+> superordinates  -
+> - /*enter the source data filename here*/.dta
+> */
+. 
+. /*
+> subordinates -
+> - data.do
+> - analysis.do
+> */
+. 
+. // ==========================================================================
+. // ==========================================================================
+. // ==========================================================================
+. 
+. // 1. display command with basic mathematical operations
+. 
+. display 2+2
+4
+
+. 
+. display 4-2
+2
+
+. 
+. display 12/3
+4
+
+. 
+. display 4*3
+12
+
+. 
+. // ==========================================================================
+. 
+. // 2. display command with more advanced mathematical functions
+. 
+. display 2^2
+4
+
+. 
+. display abs(-2)
+2
+
+. 
+. display sqrt(4)
+2
+
+. 
+. display log(10)
+2.3025851
+
+. 
+. // ==========================================================================
+. 
+. // 3. more complex example using order of operations
+. 
+. display (2^2*8)/12-2
+.66666667
+
+. 
+. // ==========================================================================
+. // ==========================================================================
+. // ==========================================================================
+. 
+. // copy code to code archive
+. 
+. copy "week-05-stataExample.do" "$projName/CodeArchive/master.do", replace
+(note: file week-05-stataExample/CodeArchive/master.do not found)
+
+. 
+. // ==========================================================================
+. 
+. // standard closing options
+. 
+. log close _all
+      name:  <unnamed>
+       log:  /Users/herb/Documents/Working/week-05-stataExample/week-05-stataExa
+> mple.txt
+  log type:  text
+ closed on:  18 Sep 2016, 21:04:17
+--------------------------------------------------------------------------------
